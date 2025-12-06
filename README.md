@@ -3,6 +3,7 @@
 （2）安装LibreOffice
 （3）公网：pip install -r requirements.txt
 （4）安装ollama，并安装模型（本次使用的是qwen3:1.7b模型）
+（5）嵌入模型：北京智源人工智能研究院;BAAI/bge-large-zh-v1.5嵌入模型
 2、启动flask：py .\flask_api.py
 3、启动ollama服务：ollama serve
 4、使用：
