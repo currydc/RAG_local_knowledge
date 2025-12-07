@@ -90,12 +90,12 @@ def download_file(filename):
 
 
 # #配置ollama
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY","ollama")
-# OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "http://127.0.0.1:11434/v1")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY","ollama")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "http://127.0.0.1:11434/v1")
 
 # #配置api
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY","XXXXXXXXX")
-OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://XXXXXXXX/v1")
+# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY","XXXXXXXXX")
+# OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://XXXXXXXX/v1")
 
 # 允许的文件扩展名（保持与原逻辑一致）
 ALLOWED_EXTENSIONS = {'pdf', 'txt', 'pptx', 'ppt', 'xlsx', 'xls', 'csv', 'html', 'htm', 'md', 'docx', 'doc'}
