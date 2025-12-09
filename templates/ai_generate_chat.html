@@ -703,7 +703,7 @@
         if (files.length != 0) {
             // 创建AJAX请求发送文件
             const xhr = new XMLHttpRequest();
-            xhr.open('POST', '/ai_generate_chat', true); // '/upload' 是服务器上处理上传的路径
+            xhr.open('POST', '/upload', true); // '/upload' 是服务器上处理上传的路径
             xhr.onload = function () {
                  if (this.status == 200) {
                     input.value = ''
